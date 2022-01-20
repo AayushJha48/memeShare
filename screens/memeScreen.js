@@ -5,7 +5,7 @@ import MainButton from "../components/MainButton";
 import axios from "axios";
 
 const MemeScreen = () => {
-  const [postLink, setPostLink] = useState("");
+  const [postLink, setPostLink] = useState();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const [displayProp, setDisplayProp] = useState("none");
